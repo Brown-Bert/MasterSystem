@@ -23,8 +23,7 @@
 ~~~
 2.3 git clone 远程仓库地址
 ~~~
->>从远程仓库拉取项目代码，master-spring是后端的代码，master-vue是前端的代码，masterSystemDocker是使用docker打包之后的前后端代码以及配置文件，下面主要讲的是
-使用docker布置项目
+>>从远程仓库拉取项目代码，master-spring是后端的代码，master-vue是前端的代码，masterSystemDocker是使用docker打包之后的前后端代码以及配置文件，下面主要讲的是使用docker布置项目
 ## 三、使用命令布置项目
 ### 3.1布置前端容器
 >> 在./masterSystem/vue的目录下运行如下命令
