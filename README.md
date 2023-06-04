@@ -26,13 +26,13 @@
 >>从远程仓库拉取项目代码，master-spring是后端的代码，master-vue是前端的代码，masterSystemDocker是使用docker打包之后的前后端代码以及配置文件，下面主要讲的是使用docker布置项目
 ## 三、使用命令布置项目
 ### 3.1布置前端容器
->> 在./masterSystem/vue的目录下运行如下命令
+>> 在./masterSystem/vue的目录下运行如下命令:
 ~~~
 docker build -t testvue .
 ~~~
 >> 不要忘记最后的点，testvue和点之间有一个空格，testvue是前端容器的名字，不能随意更换容器名字，是写死的
 ### 3.2布置后端容器
->> 在./masterSystemDocker/springboot的目录下运行如下命令
+>> 在./masterSystemDocker/springboot的目录下运行如下命令:
 ~~~
 docker-compose up -d
 ~~~
