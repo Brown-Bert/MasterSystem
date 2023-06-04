@@ -13,15 +13,15 @@
 ### 从我的github上面拉取代码
 >>需要链接仓库之后再下载，在服务器任何地方先创建文件夹，名字随意，然后在该文件夹下打开git的运行窗口，代码如下：  
 ~~~
-git init
+2.1 git init
 ~~~
 >>该命令是在当前文件夹下初始化本地仓库
 ~~~
-git remote add origin 远程仓库地址
+2.2 git remote add origin 远程仓库地址
 ~~~
 >>链接远程仓库
 ~~~
-git clone 远程仓库地址
+2.3 git clone 远程仓库地址
 ~~~
 >>从远程仓库拉取项目代码，master-spring是后端的代码，master-vue是前端的代码，masterSystemDocker是使用docker打包之后的前后端代码以及配置文件，下面主要讲的是
 使用docker布置项目
