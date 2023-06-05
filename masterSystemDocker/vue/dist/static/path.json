@@ -1,0 +1,20 @@
+{
+  "basePath": "",
+  "loginPath": "/consumer/login",
+  "changePasswordPath": "/consumer/changePassword",
+  "getPersonInformationPath": "/information/query",
+  "insertPath": "/orderlist/add",
+  "getAllPath": "/orderlist/page",
+  "getTotalLengthPath": "/orderlist/total",
+  "payforPath": "/orderlist/payfor",
+  "finishPath": "/orderlist/finish",
+  "updatePath": "/orderlist/update",
+  "outPath": "/orderlist/out",
+  "fatherIdPath": "/orderlist/fatherid",
+  "ProfessionalQuestionPath": "/askGpt/profession",
+  "EnglishQuestionPath": "/askGpt/english",
+  "MathQuestionPath": "/askGpt/math",
+  "CounselorPath": "/askGpt/counselor",
+  "GuiderPath": "/askGpt/guider",
+  "DairyPath": "/askGpt/dairy"
+}
